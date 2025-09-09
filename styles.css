@@ -1,0 +1,11 @@
+body{font-family: Arial, sans-serif; margin:0; background:#f7f7f8; color:#222}
+header{background:#005f73;color:#fff;padding:18px}
+header h1{margin:0}
+.tag{opacity:0.9;margin-top:6px}
+#cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px;padding:18px}
+.card{background:#fff;padding:12px;border-radius:8px;box-shadow:0 1px 4px rgba(0,0,0,0.05);cursor:pointer}
+.card h3{margin:0 0 6px 0}
+.card p{margin:0;color:#444;font-size:14px}
+#card-detail{margin:18px;background:#fff;padding:16px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.06)}
+.hidden{display:none}
+footer{padding:12px;text-align:center;color:#666}
